@@ -1,0 +1,33 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Crud app",
+        "description": "This is REST API server aims to provide basic CRUD services.",
+        "version": "1.0.0",
+        "contact": {
+            "name": "phukao777@gmail.com",
+            "url": "https://github.com/phuphalll/crud-be"
+        }
+    },
+    "paths": {
+        "/": {
+            "get": {
+                "tags": [
+                    "healthcheck"
+                ],
+                "summary": "System health check endpoint",
+                "responses": {
+                    "200": {
+                        "description": "System health check"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        }
+    }
+}

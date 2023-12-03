@@ -1,0 +1,8 @@
+const errorCode = {
+  INTERNAL_SERVIER_ERROR: "PI00000",
+  BACKEND_API_ERROR: "PI00001",
+  DATABASE_ERROR: "PI00002",
+  MISSING_FIELD: "PI00003",
+};
+
+export default errorCode;
